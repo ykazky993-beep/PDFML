@@ -1,0 +1,59 @@
+{
+  "name": "pdfml",
+  "displayName": "PDFML Language",
+  "description": "Syntax highlighting and language support for PDFML.",
+  "version": "0.1.0",
+  "publisher": "ykazz",
+  "license": "MIT",
+  "icon": "icons/logo_pdfml.png",
+
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+
+  "categories": [
+    "Programming Languages"
+  ],
+
+  "keywords": [
+    "pdfml",
+    "pdf",
+    "markup",
+    "language"
+  ],
+
+  "activationEvents": [],
+
+  "main": "./out/extension.js",
+
+  "contributes": {
+    "languages": [
+      {
+        "id": "pdfml",
+        "aliases": [
+          "PDFML",
+          "pdfml"
+        ],
+        "extensions": [
+          ".pdfml"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+
+    "grammars": [
+      {
+        "language": "pdfml",
+        "scopeName": "source.pdfml",
+        "path": "./syntaxes/pdfml.tmLanguage.json"
+      }
+    ],
+
+    "snippets": [
+      {
+        "language": "pdfml",
+        "path": "./snippets/pdfml.code-snippets"
+      }
+    ]
+  }
+}

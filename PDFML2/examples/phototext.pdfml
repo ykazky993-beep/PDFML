@@ -1,0 +1,111 @@
+{head align="center" color="#0055AA"}
+LAPORAN INVENTARIS SEKOLAH
+{/head}
+
+{sub align="center" color="gray"}
+Tahun Ajaran 2026/2027
+{/sub}
+
+{space height=20 /}
+
+{body align="justify"}
+Dokumen ini dibuat menggunakan {b}PDFML v3{/b}. Bahasa markup ini mendukung
+{i}formatting{/i}, {u}garis bawah{/u}, serta
+{color val="blue"}pewarnaan teks{/color}.
+{/body}
+
+{space height=15 /}
+
+{head}
+Data Barang
+{/head}
+
+{table border=1}
+    {row}
+        {cell}{b}No{/b}{/cell}
+        {cell}{b}Nama Barang{/b}{/cell}
+        {cell}{b}Jumlah{/b}{/cell}
+        {cell}{b}Harga{/b}{/cell}
+    {/row}
+
+    {row}
+        {cell}1{/cell}
+        {cell}Laptop ASUS{/cell}
+        {cell}12{/cell}
+        {cell}Rp15.000.000{/cell}
+    {/row}
+
+    {row}
+        {cell}2{/cell}
+        {cell}Proyektor Epson{/cell}
+        {cell}5{/cell}
+        {cell}Rp8.500.000{/cell}
+    {/row}
+
+    {row}
+        {cell}3{/cell}
+        {cell}Printer HP{/cell}
+        {cell}7{/cell}
+        {cell}Rp2.300.000{/cell}
+    {/row}
+{/table}
+
+{space height=20 /}
+
+{body}
+Berikut adalah logo proyek PDFML.
+{/body}
+
+{image src="logo_pdfml.png" width=180 height=180 /}
+
+{page /}
+
+{head align="center"}
+Halaman Kedua
+{/head}
+
+{body align="justify"}
+Halaman ini digunakan untuk menguji {b}Page Break{/b}.
+Parser juga harus mampu menangani beberapa paragraf secara berurutan.
+
+{color val="green"}
+Selamat datang di PDFML v3.
+{/color}
+{/body}
+
+{space height=15 /}
+
+{table border=1}
+    {row}
+        {cell}{b}Bahasa{/b}{/cell}
+        {cell}{b}Status{/b}{/cell}
+    {/row}
+
+    {row}
+        {cell}Python{/cell}
+        {cell}✔{/cell}
+    {/row}
+
+    {row}
+        {cell}Lexer{/cell}
+        {cell}✔{/cell}
+    {/row}
+
+    {row}
+        {cell}Parser{/cell}
+        {cell}✔{/cell}
+    {/row}
+
+    {row}
+        {cell}Compiler{/cell}
+        {cell}✔{/cell}
+    {/row}
+{/table}
+
+{space height=20 /}
+
+{body align="center"}
+{b}
+=== SELESAI ===
+{/b}
+{/body}

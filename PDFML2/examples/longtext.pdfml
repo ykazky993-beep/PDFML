@@ -1,0 +1,143 @@
+{head align="center" color="#003366"}
+LAPORAN TAHUNAN PDFML
+{/head}
+
+{sub align="center"}
+Stress Test Compiler
+{/sub}
+
+{space height=20 /}
+
+{body align="justify"}
+PDFML merupakan bahasa markup yang dirancang untuk menghasilkan dokumen PDF
+dengan sintaks yang sederhana namun tetap mendukung struktur dokumen yang
+kompleks. Dokumen ini digunakan untuk menguji kestabilan lexer, parser,
+Abstract Syntax Tree (AST), serta compiler ketika menangani file berukuran
+besar.
+{/body}
+
+{space height=15 /}
+
+{head}
+Ringkasan
+{/head}
+
+{body align="justify"}
+Pengujian dilakukan dengan membuat banyak paragraf, tabel, page break,
+serta kombinasi inline style seperti {b}tebal{/b}, {i}miring{/i},
+{u}garis bawah{/u}, dan
+{color val="red"}warna{/color}.
+{/body}
+
+{table border=1}
+    {row}
+        {cell}{b}No{/b}{/cell}
+        {cell}{b}Modul{/b}{/cell}
+        {cell}{b}Status{/b}{/cell}
+    {/row}
+    {row}
+        {cell}1{/cell}
+        {cell}Lexer{/cell}
+        {cell}OK{/cell}
+    {/row}
+    {row}
+        {cell}2{/cell}
+        {cell}Parser{/cell}
+        {cell}OK{/cell}
+    {/row}
+    {row}
+        {cell}3{/cell}
+        {cell}Compiler{/cell}
+        {cell}OK{/cell}
+    {/row}
+{/table}
+
+{page /}
+
+{head}
+Bab I
+{/head}
+
+{body align="justify"}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.
+Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed,
+dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a,
+semper congue, euismod non, mi.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.
+Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed,
+dolor. Cras elementum ultrices diam. Maecenas ligula massa, varius a,
+semper congue, euismod non, mi.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus.
+Suspendisse lectus tortor, dignissim sit amet, adipiscing nec, ultricies sed,
+dolor.
+{/body}
+
+{page /}
+
+{head}
+Bab II
+{/head}
+
+{body align="justify"}
+Ini hanya contoh isi yang panjang.
+
+Lorem ipsum dolor sit amet...
+Lorem ipsum dolor sit amet...
+Lorem ipsum dolor sit amet...
+Lorem ipsum dolor sit amet...
+Lorem ipsum dolor sit amet...
+Lorem ipsum dolor sit amet...
+Lorem ipsum dolor sit amet...
+Lorem ipsum dolor sit amet...
+Lorem ipsum dolor sit amet...
+Lorem ipsum dolor sit amet...
+{/body}
+
+{page /}
+
+{head}
+Bab III
+{/head}
+
+{table border=1}
+    {row}
+        {cell}{b}ID{/b}{/cell}
+        {cell}{b}Nama{/b}{/cell}
+        {cell}{b}Nilai{/b}{/cell}
+    {/row}
+    {row}
+        {cell}001{/cell}
+        {cell}Andi{/cell}
+        {cell}95{/cell}
+    {/row}
+    {row}
+        {cell}002{/cell}
+        {cell}Budi{/cell}
+        {cell}89{/cell}
+    {/row}
+    {row}
+        {cell}003{/cell}
+        {cell}Citra{/cell}
+        {cell}91{/cell}
+    {/row}
+    {row}
+        {cell}004{/cell}
+        {cell}Dina{/cell}
+        {cell}87{/cell}
+    {/row}
+    {row}
+        {cell}005{/cell}
+        {cell}Eko{/cell}
+        {cell}98{/cell}
+    {/row}
+{/table}
+
+{space height=20 /}
+
+{body align="center"}
+{b}
+=== END OF DOCUMENT ===
+{/b}
+{/body}

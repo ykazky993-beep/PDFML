@@ -1,0 +1,15 @@
+[project]
+name = "pdfml"
+version = "0.1.0"
+description = "A lightweight markup language for generating PDF documents."
+authors = [
+    { name = "ykazz" }
+]
+requires-python = ">=3.10"
+
+dependencies = [
+    "reportlab"
+]
+
+[project.scripts]
+pdfml = "pdfml.cli:main"
