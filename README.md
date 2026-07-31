@@ -169,7 +169,7 @@ PDFML is currently under active development. Existing functionality is stable en
 
 Developer
 
-Creator: Ahmad Zaky Wildani
+Creator: ykazky993
 
 PDFML is an independent software project created to explore a modern and developer-friendly approach to PDF generation.
 
